@@ -1,15 +1,18 @@
 // categoria.component.ts
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { SearchBarComponent } from "../search-bar/search-bar.component";
 
 @Component({
   selector: 'app-categoria',
   templateUrl: './categoria.component.html',
-  styleUrl: './categoria.component.css'
+  styleUrl: './categoria.component.css',
+  imports: [SearchBarComponent]
 })
 export class CategoriaComponent implements OnInit {
   nombreCategoria: string = '';
   items: any[] = [];
+  item_placeholder: string = ""
 
   data: any = {
     'cafes': {
@@ -69,5 +72,7 @@ export class CategoriaComponent implements OnInit {
     const nombre = this.route.snapshot.paramMap.get('nombre') || '';
     this.nombreCategoria = this.data[nombre]?.nombre;
     this.items = this.data[nombre]?.productos || [];
+    const random_index = Math.floor(Math.random() * this.items.length)
+    this.item_placeholder = this.items[random_index].nombre
   }
 }

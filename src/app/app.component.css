@@ -23,8 +23,13 @@
     height: 100%;
     width: 100%;
     z-index: -1;
-    background-image: url('../../public/background.png');
+    background-image: url('/fondo-1.png');
     background-size: cover;
     background-position: center;
-    filter: blur(9px) brightness(1.1);
+    filter: blur(4px) brightness(0.82);
+}
+
+
+#logo{
+    border-radius: 37px;
 }

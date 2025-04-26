@@ -1,12 +1,14 @@
+<app-search-bar [item_placeholder]="item_placeholder"></app-search-bar>
 <div class="container py-4">
     <h2 class="text-center text-brown mb-4">{{ nombreCategoria }}</h2>
     <div class="row g-4">
         @for (item of items; track item.nombre) {
-        <div class="col-md-4">
-            <div class="card shadow-sm">
-                <div class="card-body">
-                    <h5 class="card-title">{{ item.nombre }}</h5>
-                    <p class="card-text text-muted">{{ item.descripcion }}</p>
+        <div class="col-md-4 px-4 text-center " id="cart-item">
+            <div class="card shadow-sm border border-2" id="borde-carta-div">
+                <img src="producto-ejemplo.png" class="card-img-top" alt="" id="borde-carta-img">
+                <div class="card-body text-dark" id="fondo-carta">
+                    <h1 class="card-title pt-4" id="titulo-card">{{ item.nombre }}</h1>
+                    <p class="text-dark" id="descripcion-card">{{ item.descripcion }}</p>
                     <p class="fw-bold text-brown">$ {{ item.precio }}</p>
                 </div>
             </div>
