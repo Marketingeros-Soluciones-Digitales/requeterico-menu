@@ -1,9 +1,9 @@
-    body,
-    html {
-        height: 100%;
-        margin: 0;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .text-brown {
     color: #5C3A2E;
