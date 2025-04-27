@@ -28,7 +28,7 @@
 
 
 #imagen-card{
-    background-image: url("../../../public/producto-ejemplo.png");
+    background-image: url("/public/producto-ejemplo.png");
     background-size: cover;
     background-position: center;
     width: 100%;
