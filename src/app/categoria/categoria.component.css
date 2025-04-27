@@ -37,8 +37,7 @@
 
 
 #cuerpo-card{
-    background: url("../../../public/fondo-claro.png") repeat;
-    /* padding: 15px 5px; */
+    background: url("../../../public/fondo-claro.png");
     padding-bottom: 40px;
     font-weight: bold;
 }
