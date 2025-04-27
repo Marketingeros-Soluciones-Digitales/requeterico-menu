@@ -28,7 +28,7 @@
 
 
 #imagen-card{
-    background-image: url("/producto-ejemplo.png");
+    background-image: url("../../../public/producto-ejemplo.png");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -37,7 +37,7 @@
 
 
 #cuerpo-card{
-    background: url("/fondo-claro.png") repeat;
+    background: url("../../../public/fondo-claro.png") repeat;
     /* padding: 15px 5px; */
     padding-bottom: 40px;
     font-weight: bold;

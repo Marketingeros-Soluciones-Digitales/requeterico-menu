@@ -24,7 +24,7 @@
     height: 100%;
     width: 100%;
     z-index: -1;
-    background-image: url('/fondo-1.png');
+    background-image: url('../../public/fondo-1.png');
     background-size: cover;
     background-position: center;
     filter: blur(3px) brightness(0.87);
