@@ -2,26 +2,26 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: 'C:/Program Files/Git/requeterico-menu-1.0/',
+  baseHref: '/',
   locale: undefined,
   routes: [
   {
     "renderMode": 1,
-    "route": "/Program%20Files/Git/requeterico-menu-1.0"
+    "route": "/"
   },
   {
     "renderMode": 1,
-    "route": "/Program%20Files/Git/requeterico-menu-1.0/inicio"
+    "route": "/inicio"
   },
   {
     "renderMode": 1,
-    "route": "/Program%20Files/Git/requeterico-menu-1.0/*"
+    "route": "/*"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 828, hash: '705b3dbe8c80ce6e60e1bfbf8739adef01045b3b0c3e0ccd20c3e43198969c3e', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1156, hash: '9f91c3157bc3cd75704fa903f42640120fb87f782937d3311f27bf2ce62ffded', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'styles-3FJ6LNGY.css': {size: 632, hash: 'no0c4xfeoDM', text: () => import('./assets-chunks/styles-3FJ6LNGY_css.mjs').then(m => m.default)}
+    'index.csr.html': {size: 787, hash: '4ebbdfee990a73c305ea404ad370ca5a639191d49cbe964f4bf8e141a263d840', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1115, hash: '492086d5bb1508758f156df4f88e63dfb4f39f5798aaca2b07001c86c7bf49ac', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'styles-LWDQM6ES.css': {size: 84291, hash: '+WzmT5oZAEQ', text: () => import('./assets-chunks/styles-LWDQM6ES_css.mjs').then(m => m.default)}
   },
 };

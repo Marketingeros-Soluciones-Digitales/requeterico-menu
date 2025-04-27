@@ -2,6 +2,7 @@
     html {
         height: 100%;
         margin: 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
 .text-brown {
@@ -26,10 +27,13 @@
     background-image: url('/fondo-1.png');
     background-size: cover;
     background-position: center;
-    filter: blur(4px) brightness(0.82);
+    filter: blur(3px) brightness(0.87);
 }
 
 
 #logo{
     border-radius: 37px;
 }
+
+
+

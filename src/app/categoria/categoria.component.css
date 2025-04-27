@@ -1,23 +1,19 @@
 #cart-item{
-        position: relative;
-        min-height: 120px;
-        margin-top: 15px;
-        box-shadow: none !important;
-        margin-bottom: 80px;
-        border-radius: 33px;
-        background-size: contain;
-    }
-
-/* #fondo-carta{
-    background-image: url("/fondo-card-2.png");
-    background-size: cover;
-    filter: blur(1px);
-} */
-#descripcion-card{
-    font-size: 16px !important;
-    margin-top: 12px;
+    position: relative;
+    min-height: 120px;
+    margin-top: 15px;
+    box-shadow: none !important;
+    margin-bottom: 80px;
+    border-radius: 33px;
+    background-size: contain;
+}
+#card-descripcion{
     text-transform: uppercase;
-    font-weight: 500;
+    font-size: 1rem;
+}
+
+#card-descripcion i{
+    font-size: 25px;
 }
 
 #titulo-card{
@@ -26,4 +22,55 @@
     font-size: 24px;
     line-height: 1.2;
     font-weight: 700;
+    font-family: Verdana;
+}
+
+
+
+#imagen-card{
+    background-image: url("/producto-ejemplo.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 280px;
+}
+
+
+#cuerpo-card{
+    background: url("/fondo-claro.png") repeat;
+    /* padding: 15px 5px; */
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+
+
+#card-nombre{
+    padding: 15px 5px;
+    font-family: 'Verdana';
+}
+
+#card-nombre div{
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+}
+
+
+#boton-card{
+    align-content: space-evenly;
+    text-align: center;
+    float: none;
+    border-radius: 5px;
+    width: 140px;
+    height: 55px;
+    position: relative;
+    margin: auto;
+    margin-top: 38px;
+    color: rgb(255 255 255);
+    font-size: 1.3rem;
+    background-color: #a67c52;
+    border: none;
+    color: white;
+    font-family: Verdana;
 }

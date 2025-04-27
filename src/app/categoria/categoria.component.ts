@@ -18,50 +18,50 @@ export class CategoriaComponent implements OnInit {
     'cafes': {
       nombre: 'Cafés',
       productos: [
-        { nombre: 'Espresso', descripcion: 'Café intenso', precio: 5000 },
-        { nombre: 'Latte', descripcion: 'Con leche espumada', precio: 6000 },
-        { nombre: 'Capuccino', descripcion: 'Con espuma de leche y canela', precio: 6500 },
-        { nombre: 'Café americano', descripcion: 'Café suave y alargado', precio: 4800 },
+        { nombre: 'Espresso', descripcion: 'Café 100% puro, recién molido.', precio: 5000 },
+        { nombre: 'Latte', descripcion: 'Café robusto combinado con leche espumada cremosa.', precio: 6000 },
+        { nombre: 'Capuccino', descripcion: 'Café intenso, leche espumada y un toque de canela aromática.', precio: 6500 },
+        { nombre: 'Café americano', descripcion: 'Café suave, preparado con agua caliente para un sabor alargado.', precio: 4800 },
       ]
     },
     'tortas': {
       nombre: 'Tortas',
       productos: [
-        { nombre: 'Cheesecake', descripcion: 'Con salsa de frutos rojos', precio: 9500 },
-        { nombre: 'Torta de chocolate', descripcion: 'Rellena de mousse', precio: 8900 },
-        { nombre: 'Tarta de manzana', descripcion: 'Con base de masa casera', precio: 8200 },
+        { nombre: 'Cheesecake', descripcion: 'Queso crema suave y una salsa de frutos rojos frescos.', precio: 9500 },
+        { nombre: 'Torta de chocolate', descripcion: 'Chocolate oscuro y mousse de chocolate relleno, una combinación rica y suave.', precio: 8900 },
+        { nombre: 'Tarta de manzana', descripcion: 'Manzanas frescas, masa casera crujiente y toque de canela.', precio: 8200 },
       ]
     },
     'infusiones': {
       nombre: 'Infusiones',
       productos: [
-        { nombre: 'Té verde', descripcion: 'Orgánico y relajante', precio: 4500 },
-        { nombre: 'Té chai', descripcion: 'Con especias', precio: 5000 },
-        { nombre: 'Mate cocido', descripcion: 'Tradicional', precio: 4000 },
+        { nombre: 'Té verde', descripcion: 'Hojas de té verde orgánico, frescas y naturales.', precio: 4500 },
+        { nombre: 'Té chai', descripcion: 'Té negro con una mezcla de especias: canela, jengibre, cardamomo y clavo.', precio: 5000 },
+        { nombre: 'Mate cocido', descripcion: 'Yerba mate de alta calidad, infusionada para un sabor suave y tradicional.', precio: 4000 },
       ]
     },
     'jugos-smoothies': {
       nombre: 'Jugos & Smoothies',
       productos: [
-        { nombre: 'Jugo de naranja', descripcion: 'Natural y exprimido', precio: 6000 },
-        { nombre: 'Smoothie de frutas rojas', descripcion: 'Con yogur y miel', precio: 7500 },
-        { nombre: 'Limonada con menta', descripcion: 'Refrescante', precio: 6500 },
+        { nombre: 'Jugo de naranja', descripcion: 'Naranjas frescas exprimidas al momento, con todo su jugo natural.', precio: 6000 },
+        { nombre: 'Smoothie de frutas rojas', descripcion: 'Frambuesas, fresas y arándanos mezclados con yogur natural y un toque de miel.', precio: 7500 },
+        { nombre: 'Limonada con menta', descripcion: 'Limones frescos y hojas de menta, para una bebida refrescante y cítrica.', precio: 6500 },
       ]
     },
     'pastelería': {
       nombre: 'Pastelería',
       productos: [
-        { nombre: 'Croissant', descripcion: 'De manteca', precio: 4000 },
-        { nombre: 'Pain au chocolat', descripcion: 'Relleno de chocolate', precio: 4500 },
-        { nombre: 'Alfajor de maicena', descripcion: 'Con dulce de leche', precio: 3500 },
+        { nombre: 'Croissant', descripcion: 'Manteca de calidad en cada capa, horneado hasta quedar perfectamente crujiente.', precio: 4000 },
+        { nombre: 'Pain au chocolat', descripcion: 'Masa hojaldre rellena de chocolate puro, suave y decadente.', precio: 4500 },
+        { nombre: 'Alfajor de maicena', descripcion: 'Dulce de leche entre dos capas de maicena suave, un toque dulce y tradicional.', precio: 3500 },
       ]
     },
     'tostados-sandwiches': {
       nombre: 'Tostados y Sandwiches',
       productos: [
-        { nombre: 'Tostado de jamón y queso', descripcion: 'Clásico', precio: 8000 },
-        { nombre: 'Sandwich vegetariano', descripcion: 'Con palta y vegetales', precio: 9000 },
-        { nombre: 'Tostón capresse', descripcion: 'Con tomate, albahaca y muzzarella', precio: 9500 },
+        { nombre: 'Tostado de jamón y queso', descripcion: 'Jamón cocido y queso fundido, entre pan crujiente, un clásico irresistible.', precio: 8000 },
+        { nombre: 'Sandwich vegetariano', descripcion: 'Palta fresca, tomate, lechuga y vegetales crocantes, todo en pan integral.', precio: 9000 },
+        { nombre: 'Tostón capresse', descripcion: 'Tomates frescos, albahaca y muzzarella, todo sobre pan tostado.', precio: 9500 },
       ]
     },
   };

@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'C:/Program Files/Git/requeterico-menu-1.0',
+  basePath: '/',
   supportedLocales: {
   "en-US": ""
 },
