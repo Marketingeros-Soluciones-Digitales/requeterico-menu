@@ -15,7 +15,7 @@
           "options": {
             "outputPath": "docs",
             "index": "src/index.html",
-            "baseHref": "/",
+            "baseHref": "/requeterico-menu/",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -32,11 +32,7 @@
               "node_modules/bootstrap-icons/font/bootstrap-icons.css"
             ],
             "scripts": [],
-            "server": "src/main.server.ts",
-            "outputMode": "server",
-            "ssr": {
-              "entry": "src/server.ts"
-            }
+            "outputMode": "static"
           },
           "configurations": {
             "production": {
