@@ -1,4 +1,3 @@
-// categoria.component.ts
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { SearchBarComponent } from "../search-bar/search-bar.component";
@@ -7,17 +6,20 @@ import { SearchBarComponent } from "../search-bar/search-bar.component";
   selector: 'app-categoria',
   templateUrl: './categoria.component.html',
   styleUrl: './categoria.component.css',
+  standalone: true,
   imports: [SearchBarComponent]
 })
 export class CategoriaComponent implements OnInit {
   nombreCategoria: string = '';
   items: any[] = [];
-  item_placeholder: string = ""
+  itemsOriginales: any[] = [];
+  item_placeholder: string = '';
+  searchTerm: string = '';
+  isLoading: boolean = false;
 
   data: any = {
     'cafes': {
-      nombre: 'Cafés',
-      productos: [
+      nombre: 'cafés', productos: [
         { nombre: 'Espresso', descripcion: 'Café 100% puro, recién molido.', precio: 5000 },
         { nombre: 'Latte', descripcion: 'Café robusto combinado con leche espumada cremosa.', precio: 6000 },
         { nombre: 'Capuccino', descripcion: 'Café intenso, leche espumada y un toque de canela aromática.', precio: 6500 },
@@ -72,7 +74,35 @@ export class CategoriaComponent implements OnInit {
     const nombre = this.route.snapshot.paramMap.get('nombre') || '';
     this.nombreCategoria = this.data[nombre]?.nombre;
     this.items = this.data[nombre]?.productos || [];
-    const random_index = Math.floor(Math.random() * this.items.length)
-    this.item_placeholder = this.items[random_index].nombre
+    this.itemsOriginales = [...this.items];
+    const random_index = Math.floor(Math.random() * this.items.length);
+    this.item_placeholder = this.items[random_index]?.nombre || '';
+  }
+
+  onSearch(term: string) {
+    console.log(term)
+    this.searchTerm = term;
+    this.isLoading = true;
+
+    setTimeout(() => { // Simula un pequeño delay
+      this.buscarProducto();
+      this.isLoading = false;
+    }, 300); // 300ms de espera para "loading"
+  }
+
+  buscarProducto() {
+    const termino = this.searchTerm.trim().toLowerCase();
+    
+    if (!termino) {
+      this.items = [...this.itemsOriginales];
+      return;
+    }
+
+    const palabras = termino.split(' ');
+
+    this.items = this.itemsOriginales.filter((producto: any) => {
+      const textoProducto = `${producto.nombre} ${producto.descripcion}`.toLowerCase();
+      return palabras.every(palabra => textoProducto.includes(palabra));
+    });
   }
 }
