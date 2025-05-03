@@ -14,6 +14,7 @@
 
 #card-descripcion i{
     font-size: 25px;
+    text-align: center;
 }
 
 #titulo-card{
@@ -22,13 +23,12 @@
     font-size: 24px;
     line-height: 1.2;
     font-weight: 700;
-    font-family: Verdana;
 }
 
 
 
 #imagen-card{
-    background: url("../../../public/producto-ejemplo.png");
+    /* background: url("../../../public/producto-ejemplo.png"); */
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -46,7 +46,6 @@
 
 #card-nombre{
     padding: 15px 5px;
-    font-family: 'Verdana';
 }
 
 #card-nombre div{
@@ -67,9 +66,34 @@
     margin: auto;
     margin-top: 38px;
     color: rgb(255 255 255);
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     background-color: #a67c52;
     border: none;
     color: white;
-    font-family: Verdana;
+}
+
+
+
+.boton-volver{
+    background-color: #a67c52;
+    text-align: center;
+    font-size: 21px;
+    color: #fef4e5;
+    float: none;
+    padding-top: 7px;
+    letter-spacing: 1px;
+    border-top: 0px solid #fef4e5;
+    height: 47px;
+    margin: 0;
+    position: fixed;
+    border-radius: 0;
+    bottom: 0px;
+    width: 100% !important;
+    overflow: hidden;
+    z-index: 5;
+}
+
+
+.div-carta{
+    border-color: #a5805b;
 }

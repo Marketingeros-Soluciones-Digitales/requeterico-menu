@@ -2,3 +2,18 @@
     font-size: 14px;
     text-transform: uppercase;
 }
+
+.icon-nombre{
+    font-size: 3rem;
+}
+
+.categoria-label{
+    color: #6b4c3b;
+    font-size: 1.1rem;
+    font-family: "Open Sans";
+    font-weight: 500;
+}
+
+.categoria-div {
+    background: url("../../../public/fondo-claro.png");
+}

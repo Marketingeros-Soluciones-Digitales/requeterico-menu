@@ -2,7 +2,6 @@ body,
 html {
     height: 100%;
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .text-brown {
@@ -21,13 +20,16 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     z-index: -1;
-    background-image: url('../../public/fondo-1.png');
+    background-image: url('../../public/fondo-a.png');
     background-size: cover;
     background-position: center;
-    filter: blur(3px) brightness(0.87);
+    filter: blur(1px) brightness(0.9);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 

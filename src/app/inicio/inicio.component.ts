@@ -1,20 +1,19 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { CategoriaComponent } from '../categoria/categoria.component';
 
 @Component({
   selector: 'app-inicio',
   imports: [RouterModule],
   templateUrl: './inicio.component.html',
-  styleUrl: './inicio.component.css'
+  styleUrl: './inicio.component.css',
+  providers: [CategoriaComponent]
 })
 export class InicioComponent {
   title = 'inicio';
-  categorias = [
-    { label: 'Cafés', icon: '☕', route: '/cafes' },
-    { label: 'Tortas', icon: '🍰', route: '/tortas' },
-    { label: 'Infusiones', icon: '🍵', route: '/infusiones' },
-    { label: 'Jugos & Smoothies', icon: '🍓', route: '/jugos-smoothies' },
-    { label: 'Pastelería', icon: '🧁', route: '/pastelería' },
-    { label: 'Tostados y Sandwiches', icon: '🥪', route: '/tostados-sandwiches' }
-  ];
+  categorias: any;
+
+  constructor(categoriaComponent: CategoriaComponent) {
+    this.categorias = categoriaComponent.data
+  }
 }

@@ -1,0 +1,36 @@
+.segundo {
+    margin-left: -5px;
+    margin-right: -5px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.tercero {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cuarto{
+    transform: translate3d(0, 0, 0);
+    margin-left: -5px;
+    margin-right: -5px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.quinto{
+    opacity: 1;
+    width: 5768px;  
+    transform: translate3d(-412px, 0px, 0px);
+}
+
+.categoria{
+    width: 103px;
+    display: block;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}

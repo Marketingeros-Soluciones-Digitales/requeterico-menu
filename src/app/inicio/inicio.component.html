@@ -1,11 +1,11 @@
-<div class="container">
+<div class="container pt-4 pb-5">
     <div class="row g-4 justify-content-center">
         @for (categoria of categorias; track categoria.label) {
         <div class="col-6 col-sm-4 col-md-3" id="cat">
             <a [routerLink]="[categoria.route]" class="text-decoration-none">
-                <div class="text-center bg-white shadow rounded-4 p-4 h-100 hover-shadow transition">
-                    <div class="fs-1">{{ categoria.icon }}</div>
-                    <div class="fw-semibold text-brown mt-2">{{ categoria.label }}</div>
+                <div class="text-center bg-white shadow rounded-4 p-3 h-100 hover-shadow transition categoria-div">
+                    <div class="icon-nombre">{{ categoria.icon }}</div>
+                    <div class="fw-bold text-brown mt-2 categoria-label">{{ categoria.label }}</div>
                 </div>
             </a>
         </div>
