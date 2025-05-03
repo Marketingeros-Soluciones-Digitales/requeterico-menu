@@ -263,7 +263,7 @@ export class CategoriaComponent implements OnInit {
           nombre: 'Jugo de naranja',
           descripcion: 'Naranjas frescas exprimidas al momento, con todo su jugo natural.',
           precio: 5200,
-          imagen: 't1.jpg'
+          imagen: 'j1.jpg'
         },
         {
           nombre: 'Jugo especial verde',

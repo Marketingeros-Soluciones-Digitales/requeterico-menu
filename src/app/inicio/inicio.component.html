@@ -1,16 +1,18 @@
 <div class="container pt-4 pb-5">
     <div class="row g-4 justify-content-center">
         @for (categoria of categorias; track categoria.label) {
-        <div class="col-6 col-sm-4 col-md-3" id="cat">
+        <div  class="col-6 " id="cat">
             <a [routerLink]="[categoria.route]" class="text-decoration-none">
                 <div class="text-center bg-white shadow rounded-4 p-3 h-100 hover-shadow transition categoria-div">
-                    <!-- <div class="icon-nombre">{{ categoria.icon }}</div> -->
-                    <!-- <i class="{{categoria.icon}} icono"></i> -->
                      <img class="img-fluid icono" src="{{categoria.icon}}" alt="{{categoria.label}}">
                     <div class="fw-bold text-brown mt-2 categoria-label">{{ categoria.label }}</div>
                 </div>
             </a>
         </div>
         }
+    </div>
+    <div class="row copyright mt-5 mb-0">
+        <a class="mt-3" href="https://marketingeros.online/" target="_blank">Creado por
+            <img class="ipage px-1" src="logo-marketingeros3.png"></a>
     </div>
 </div>

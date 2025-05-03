@@ -1,6 +1,9 @@
 #cat{
     font-size: 14px;
     text-transform: uppercase;
+    max-width: 190px;
+    height: 170px;
+    padding: 5px 15px;
 }
 
 .icon-nombre{
@@ -9,7 +12,7 @@
 
 .categoria-label{
     color: #6b4c3b;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: "Open Sans";
     font-weight: 500;
 }
@@ -20,5 +23,25 @@
 }
 
 .icono{
-    height: 90px;
+    height: 80px;
+}
+
+
+.copyright{
+    position: inherit; bottom: 0; width: 100%; text-align: center; margin-bottom: 10px;margin-top: 10px;
+}
+
+.copyright a img{
+    max-width: 130px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.copyright a{
+    text-transform: uppercase;
+    color: #6b4c3b;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
 }

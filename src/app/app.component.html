@@ -6,14 +6,16 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 <link href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css" rel="stylesheet">
 <div class="background-container"></div>
-<main>
-  <div class="container pt-5">
-    <div class="text-center mb-3">
-      <a [routerLink]="['/']"><img src="logo.jpg" alt="Requeterico" class="img-fluid mb-3"
-          style="max-width: 150px;" id="logo"></a>
+<div [ngClass]="{ 'fade': true, 'show': isViewVisible }">
+  <main>
+    <div class="container pt-5">
+      <div class="text-center mb-4 mt-4">
+        <a [routerLink]="['/']"><img src="logo0.png" alt="Requeterico" class="img-fluid" style="max-width: 210px;"
+            id="logo"></a>
+      </div>
     </div>
-  </div>
-  <section class="content">
-    <router-outlet></router-outlet>
-  </section>
-</main>
+    <section class="content">
+      <router-outlet></router-outlet>
+    </section>
+  </main>
+</div>
