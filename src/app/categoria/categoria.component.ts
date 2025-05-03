@@ -22,7 +22,7 @@ export class CategoriaComponent implements OnInit {
   data: any = [
     {
       label: 'Cafés',
-      icon: '☕',
+      icon: 'icono1.png',
       route: '/cafes',
       nombre: 'cafés',
       productos: [
@@ -54,7 +54,7 @@ export class CategoriaComponent implements OnInit {
     },
     {
       label: 'Tortas',
-      icon: '🍰',
+      icon: 'icono2.png',
       route: '/tortas',
       nombre: 'Tortas',
       productos: [
@@ -255,7 +255,7 @@ export class CategoriaComponent implements OnInit {
     // },
     {
       label: 'Jugos',
-      icon: '🍓',
+      icon: 'icono7.png',
       route: '/jugos',
       nombre: 'Jugos',
       productos: [
@@ -281,34 +281,8 @@ export class CategoriaComponent implements OnInit {
       ]
     },
     {
-      label: 'Pastelería',
-      icon: '🧁',
-      route: '/pastelería',
-      nombre: 'Pastelería',
-      productos: [
-        {
-          nombre: 'Croissant',
-          descripcion: 'Manteca de calidad en cada capa, horneado hasta quedar perfectamente crujiente.',
-          precio: 4000,
-          imagen: 't1.jpg'
-        },
-        {
-          nombre: 'Pain au chocolat',
-          descripcion: 'Masa hojaldre rellena de chocolate puro, suave y decadente.',
-          precio: 4500,
-          imagen: 't1.jpg'
-        },
-        {
-          nombre: 'Alfajor de maicena',
-          descripcion: 'Dulce de leche entre dos capas de maicena suave, un toque dulce y tradicional.',
-          precio: 3500,
-          imagen: 't1.jpg'
-        },
-      ]
-    },
-    {
       label: 'Sandwichs Calientes',
-      icon: '🥪',
+      icon: 'icono4.png',
       route: '/tostados-sandwiches',
       nombre: 'Tostados & Sandwiches',
       productos: [
@@ -436,7 +410,7 @@ export class CategoriaComponent implements OnInit {
     },
     {
       label: 'Tartas',
-      icon: '☕',
+      icon: 'icono5.png',
       route: '/tartas',
       nombre: 'tartas',
       productos: [
@@ -473,10 +447,10 @@ export class CategoriaComponent implements OnInit {
       ]
     },
     {
-      label: 'Pasteleria',
-      icon: '☕',
-      route: '/pasteleria',
-      nombre: 'pasteleria',
+      label: 'Pastelería',
+      icon: 'icono3.png',
+      route: '/pastelería',
+      nombre: 'pastelería',
       productos: [
         {
           nombre: 'Medialuna',
@@ -578,7 +552,7 @@ export class CategoriaComponent implements OnInit {
     },
     {
       label: 'Rinconcito Integral',
-      icon: '☕',
+      icon: 'icono6.png',
       route: '/rinconcito-integral',
       nombre: 'rinconcito-integral',
       productos: [

@@ -16,4 +16,9 @@
 
 .categoria-div {
     background: url("../../../public/fondo-claro.png");
+    align-content: center;
+}
+
+.icono{
+    height: 90px;
 }
