@@ -6,25 +6,35 @@
         <div class="col-md-4 px-4 text-center " id="cart-item">
             <div class="card shadow-sm border-4 rounded-5 overflow-hidden div-carta"
                 style="background-color: #f9f5f0; color: #4b2e2e; max-width: 400px;">
-                <div class="card-img-top" id="imagen-card" [style.backgroundImage]="'url(' + item.imagen + ')'">
+                <div class="card-img-top" id="imagen-card" [style.backgroundImage]="'url(' + item.imagen + ')'" (click)="openLightbox(item.imagen)">
                 </div>
-                <div class="card-body text-center px-4" id="cuerpo-card">
-                    <div id="card-nombre">
-                        <div class="card-title fw-bold text-uppercase pt-1"  style="color: #6b4c3b;">{{ item.nombre }}</div>
+                <div class="card-body text-center px-4 pb-5" id="cuerpo-card">
+                    <div id="card-nombre" class="pt-4 pb-2 px-1">
+                        <div class="card-title fw-bold text-uppercase"  style="color: #6b4c3b;">{{ item.nombre }}</div>
                     </div>
-                    <div id="card-descripcion">
+                    <div id="card-descripcion" class="pt-2">
                         <i class="bi bi-quote"></i>
-                        {{ item.descripcion }}
+                        {{ item.descripcion }}.
                     </div>
-                    <div class="btn rounded-3 p-2" id="boton-card">
+                    <div class="btn rounded-3" id="boton-card">
                         $ {{ item.precio }}
                     </div>
                 </div>
             </div>
         </div>
         }
-        <a href="/requeterico-menu/" class="btn button-add-cart checkout-button boton-volver">
+        <!-- href="/requeterico-menu/"  -->
+        <!-- [routerLink]="['/']" -->
+        <a href="/requeterico-menu/" 
+        class="btn button-add-cart checkout-button boton-volver">
             VOLVER <i class="fa fa-undo" aria-hidden="true" style="padding-top: 2px;"></i>
         </a>
     </div>
+    <!-- Lightbox -->
+    <div class="lightbox" [class.show]="lightboxVisible" [class.hide]="!lightboxVisible && lightboxImage"
+        (click)="closeLightbox()">
+        <span class="close-btn" (click)="closeLightbox()">&times;</span>
+        <img class="lightbox-content" [src]="lightboxImage" />
+    </div>
 </div>
+<app-copyright [marginBotClassDiv]="'mb-5'"></app-copyright>

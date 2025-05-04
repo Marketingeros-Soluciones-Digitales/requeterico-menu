@@ -12,7 +12,6 @@ input {
     margin-top: 20px;
     color: #4d4d4d;
     text-align: center;
-    font-family: inherit;
     font-weight: 500;
     text-align-last: center;
     text-align: center;
@@ -24,10 +23,9 @@ input {
     line-height: 1.15;
     letter-spacing: normal;
     word-spacing: normal;
-    text-transform: none;
+    text-transform: uppercase;
     text-indent: 0px;
     text-shadow: none;
     text-rendering: auto;
     cursor: text;
-    font-family: sans-serif;
  }

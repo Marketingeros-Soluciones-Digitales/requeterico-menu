@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Caveat';
 }
 
 .header {
@@ -51,19 +51,13 @@ body {
     font-size: 0.9rem;
 }
 
-
-.fade {
-    opacity: 0;
-    transition: opacity 0.8s ease-in;
-}
-
 .fade.show {
     opacity: 1;
 }
 
 .fade-in {
     opacity: 0;
-    transition: opacity 0.6s ease-in;
+    transition: opacity 0.18s ease-in-out;
 }
 
 .fade-in.show {

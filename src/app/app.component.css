@@ -23,7 +23,7 @@ html {
     /* height: 100%; */
     width: 100%;
     z-index: -1;
-    background-image: url('../../public/fondo-a.png');
+    background-image: url('../../public/fondo-a.webp');
     background-size: cover;
     background-position: center;
     filter: blur(1px) brightness(0.9);
@@ -45,6 +45,3 @@ html {
 .fade.show {
     opacity: 1;
 }
-
-
-

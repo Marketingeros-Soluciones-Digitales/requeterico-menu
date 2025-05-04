@@ -12,36 +12,15 @@
 
 .categoria-label{
     color: #6b4c3b;
-    font-size: 1rem;
-    font-family: "Open Sans";
-    font-weight: 500;
+    font-size: 15px;
 }
 
 .categoria-div {
-    background: url("../../../public/fondo-claro.png");
-    align-content: center;
+    background: url("../../../public/fondo-claro.webp");
+    align-content: end;
 }
 
 .icono{
     height: 80px;
 }
 
-
-.copyright{
-    position: inherit; bottom: 0; width: 100%; text-align: center; margin-bottom: 10px;margin-top: 10px;
-}
-
-.copyright a img{
-    max-width: 130px;
-    vertical-align: middle;
-    margin-bottom: 3px;
-    text-align: center;
-}
-
-.copyright a{
-    text-transform: uppercase;
-    color: #6b4c3b;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 13px;
-}
