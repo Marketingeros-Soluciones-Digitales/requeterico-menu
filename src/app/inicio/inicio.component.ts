@@ -13,16 +13,9 @@ import { CommonModule } from '@angular/common';
 export class InicioComponent {
   title = 'inicio';
   categorias: any;
-  visible: boolean=false;
 
   constructor(categoriaComponent: CategoriaComponent) {
     this.categorias = categoriaComponent.data
-  }
-
-  ngOnInit() {
-    setTimeout(() => {
-      this.visible = true;
-    }, 100); // Delay mínimo para activar transición
   }
 
 }

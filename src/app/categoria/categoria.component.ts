@@ -26,29 +26,47 @@ export class CategoriaComponent implements OnInit {
       route: '/cafes',
       nombre: 'cafés',
       productos: [
-        {
-          nombre: 'Espresso',
-          descripcion: 'Café 100% puro, recién molido.',
-          precio: 5000,
-          imagen: 't1.jpg'
-        },
-        {
-          nombre: 'Latte',
-          descripcion: 'Café robusto combinado con leche espumada cremosa.',
-          precio: 6000,
-          imagen: 't1.jpg'
-        },
+        // {
+        //   nombre: 'Espresso',
+        //   descripcion: 'Café 100% puro, recién molido',
+        //   precio: 5000,
+        //   imagen: 't1.jpg'
+        // },
+        // {
+        //   nombre: 'Latte',
+        //   descripcion: 'Café robusto combinado con leche espumada cremosa',
+        //   precio: 6000,
+        //   imagen: 't1.jpg'
+        // },
         {
           nombre: 'Capuccino',
-          descripcion: 'Café intenso, leche espumada y un toque de canela aromática.',
+          descripcion: 'Clásico e irresistible. Una mezcla perfecta de espresso intenso, leche vaporizada y una generosa capa de espuma suave y cremosa. Ideal para quienes disfrutan de un café equilibrado, con cuerpo y textura sedosa en cada sorbo',
           precio: 6500,
-          imagen: 't1.jpg'
+          imagen: 'c2.jpg'
         },
         {
-          nombre: 'Café americano',
-          descripcion: 'Café suave, preparado con agua caliente para un sabor alargado.',
+          nombre: 'Submarino',
+          descripcion: 'Café suave, preparado con agua caliente para un sabor Una barra de chocolate que se derrite lentamente en leche caliente. Ritual irresistible de sabor',
           precio: 4800,
-          imagen: 't1.jpg'
+          imagen: 'c1.jpg'
+        },
+        {
+          nombre: 'Frappe Americano',
+          descripcion: 'Helado de americana, café, leche, crema e hielo batidos hasta lograr una bebida suave y espumosa. Refrescante y con carácter',
+          precio: 4800,
+          imagen: 'f1.jpg'
+        },
+        {
+          nombre: 'Frappe de Dulce de Leche',
+          descripcion: 'Helado de dulce de leche, café, leche, crema e hielo. Una combinación cremosa y golosa, perfecta para los amantes del sabor argentino',
+          precio: 4800,
+          imagen: 'f1.jpg'
+        },
+        {
+          nombre: 'Frappe de Chocolate',
+          descripcion: 'Helado de chocolate, café, leche, crema e hielo. Intenso y dulce, ideal para los que buscan algo bien chocolatoso',
+          precio: 4800,
+          imagen: 'f1.jpg'
         },
       ]
     },
@@ -59,113 +77,111 @@ export class CategoriaComponent implements OnInit {
       nombre: 'Tortas',
       productos: [
         {
-          nombre: 'Cheesecake',
-          descripcion: 'Queso crema suave y una salsa de frutos rojos frescos.',
+          nombre: 'Cheescake con Frutos Rojos',
+          descripcion: 'Queso crema suave y una salsa de frutos rojos frescos',
           precio: 9500,
-          imagen: 't6.jpg'
+          imagen: 't18.jpg'
         },
         {
           nombre: 'Torta de chocolate',
-          descripcion: 'Chocolate oscuro y mousse de chocolate relleno, una combinación rica y suave.',
+          descripcion: 'Chocolate oscuro y mousse de chocolate relleno, una combinación rica y suave',
           precio: 8900,
           imagen: 't0.jpg'
         },
         {
           nombre: 'Torta Carrot Cake',
-          descripcion: 'Tres capaz de suave bizcochuelo de zanahoria, rellenas con nuestra clásica crema de queso y coronadas con nueces seleccionadas. Un clásico irresistible de Requeterico.',
+          descripcion: 'Tres capaz de suave bizcochuelo de zanahoria, rellenas con nuestra clásica crema de queso y coronadas con nueces seleccionadas. Un clásico irresistible de Requeterico',
           precio: 8200,
           imagen: 't3.jpg'
         },
         {
           nombre: 'Tarta de manzana',
-          descripcion: 'Crema pastelera, puré de manzana, canela, manzana caramelizada',
+          descripcion: 'Clásica tarta artesanal con base de masa suave, rellena de crema pastelera y manzanas frescas caramelizadas con un toque de canela. Un sabor reconfortante que nunca pasa de moda',
           precio: 7500,
           imagen: 't9.jpg',
         },
         {
           nombre: 'Tarta de Frutillas',
-          descripcion: '',
+          descripcion: 'Base crocante con dulce de leche, crema y frutillas seleccionadas frescas. Un postre simple y delicioso que resalta lo mejor de esta fruta',
           precio: 7500,
           imagen: 't1.jpg',
         },
         {
           nombre: 'Lemon Pie',
-          descripcion: '',
+          descripcion: 'Base de masa dulce, rellena con crema de limón bien cítrica y cubierta con merengue italiano dorado. Un equilibrio perfecto entre dulzura y acidez',
           precio: 7500,
           imagen: 't2.jpg'
         },
-        // {
-        //   nombre: 'Brunet',
-        //   descripcion: 'Brownie, dulce de leche y mousse de chocolate semi amargo',
-        //   precio: 7500
-        // },
-        // {
-        //   nombre: 'Torta de chocolate',
-        //   descripcion: 'Rellena con dulce de leche, crema y trozos de chocolate',
-        //   precio: 7500
-        // },
+        {
+          nombre: 'Brunet',
+          descripcion: 'Brownie intenso con dulce de leche y mousse de chocolate semiamargo. Una explosión de texturas y sabores para fanáticos del chocolate',
+          precio: 7500,
+          imagen: 't0.jpg',
+        },
+        {
+          nombre: 'Torta de chocolate',
+          descripcion: 'Bizcochuelo húmedo de chocolate relleno con crema, dulce de leche y trocitos de chocolate. Una tentación para quienes buscan puro sabor',
+          precio: 7500,
+          imagen:'t11.jpg'
+        },
         // {
         //   nombre: 'Torta Mousse de Chocolate',
-        //   descripcion: '',
-        //   precio: 7500
-        // },
-        // {
-        //   nombre: 'Torta Oreo',
-        //   descripcion: '',
+        //   descripcion: 'Combinación perfecta de mousse aireado de chocolate con base de bizcochuelo suave. Un clásico elegante e irresistible',
         //   precio: 7500,
-        //   imagen: 't4.jpg'
+        //   imagen:''
         // },
+        {
+          nombre: 'Torta Oreo',
+          descripcion: 'Capas de bizcochuelo de chocolate y crema con galletas Oreo trozadas. Dulce, crocante y cremosa, ideal para los fans de esta famosa galletita',
+          precio: 7500,
+          imagen: 't4.jpg'
+        },
         // {
         //   nombre: 'Chocotorta',
-        //   descripcion: '',
+        //   descripcion: 'Típico postre argentino con galletitas Chocolinas, dulce de leche y queso crema. Simple, fresco y amado por todos',
         //   precio: 7500
         // },
         // {
         //   nombre: 'Torta Mousse de Chocolate Blanco con Frutos',
-        //   descripcion: '',
+        //   descripcion: 'Suave mousse de chocolate blanco sobre base de bizcochuelo húmedo, con frutos rojos frescos por encima. Un equilibrio delicado entre lo dulce y lo ácido',
         //   precio: 7500
         // },
         // {
         //   nombre: 'Torta Bariloche',
-        //   descripcion: 'Bizcochuelo de chocolate, crema bariloche y chocolate Marroc',
+        //   descripcion: 'Bizcochuelo de chocolate, crema bariloche y chocolate Marroc. Sabor intenso y textura suave para un viaje dulce al sur',
         //   precio: 7500
         // },
-        {
-          nombre: 'Torta 3 Mousse',
-          descripcion: 'chocolate negro, blanco, y chocolate con leche',
-          precio: 7500,
-          imagen: 't0.jpg'
-        },
+        // {
+        //   nombre: 'Torta 3 Mousse',
+        //   descripcion: 'Tres capas de mousse: chocolate negro, blanco y con leche, sobre una base de bizcochuelo. Una experiencia completa para los amantes del cacao',
+        //   precio: 7500,
+        //   imagen: 't0.jpg'
+        // },
         {
           nombre: 'Red Velvet',
-          descripcion: '',
+          descripcion: 'Bizcochuelo rojo aterciopelado, relleno con clásica crema de queso. Una torta tan linda como deliciosa',
           precio: 7500,
           imagen: 't15.jpg'
         },
         // {
         //   nombre: 'Selva Negra',
-        //   descripcion: '',
-        //   precio: 7500
-        // },
-        // {
-        //   nombre: 'Cheescake con Frutos Rojos',
-        //   descripcion: '',
+        //   descripcion: 'Bizcochuelo de chocolate con crema chantilly, cerezas y virutas de chocolate. Un clásico centroeuropeo con alma argentina',
         //   precio: 7500
         // },
         // {
         //   nombre: 'Cheescake de Maracuyá',
-        //   descripcion: '',
+        //   descripcion: 'Frescura tropical en una torta cremosa con base de galleta, rellena con cheesecake suave y cobertura de maracuyá natural',
         //   precio: 7500
         // },
         {
           nombre: 'Marquise con dulce de leche, crema y frutos rojos',
-          descripcion: '',
+          descripcion: 'Textura intensa y sedosa de marquise de chocolate, combinada con dulce de leche, crema y el toque ácido de frutos rojos',
           precio: 7500,
           imagen: 't16.jpg'
         },
         {
           nombre: 'Rogel',
-          descripcion: '',
+          descripcion: 'Capas finas y crujientes de masa hojaldrada, rellenas con abundante dulce de leche y cubiertas con merengue italiano suave y dorado. Una combinación clásica y perfecta de crocante, cremoso y dulce',
           precio: 7500,
           imagen: 't17.jpg',
         },
@@ -182,49 +198,48 @@ export class CategoriaComponent implements OnInit {
         // },
         {
           nombre: 'Torta Mousse de Banana Split',
-          descripcion: '',
+          descripcion: 'Suave mousse de banana, dulce de leche y chocolate sobre base de bizcochuelo esponjoso. Inspiración en el clásico postre helado',
           precio: 7500,
           imagen: 't7.jpg',
         },
         {
           nombre: 'Torta Brownie con dulce de leche y merengue',
-          descripcion: '',
+          descripcion: 'Brownie intenso con capa generosa de dulce de leche y merengue tostado. Textura crocante por fuera, fundente por dentro',
           precio: 7500,
           imagen:'t10.jpg'
         },
         // {
         //   nombre: 'Key lime pie',
-        //   descripcion: '',
+        //   descripcion: 'Base de masa crocante con una sedosa crema de lima y cobertura de merengue. Refrescante y equilibrada',
         //   precio: 7500
         // },
         // {
         //   nombre: 'Torta Moka',
-        //   descripcion: 'Base de chocolate, crema de chocolate y mousse de café',
+        //   descripcion: 'Bizcochuelo de chocolate, crema de chocolate y mousse de café. El toque justo entre lo dulce y el aroma intenso del café',
         //   precio: 7500
         // },
         {
           nombre: 'Torta Block',
-          descripcion: 'Chocolate, dulce de leche y mani',
+          descripcion: 'Capas de chocolate, dulce de leche y marquise de vainilla. Una torta con historia, para los que aman los sabores de siempre',
           precio: 7500,
           imagen: 't13.jpg'
         },
         // {
         //   nombre: 'Torta de Nuez',
-        //   descripcion: '',
+        //   descripcion: 'Bizcochuelo húmedo con nueces seleccionadas y crema. Un clásico tradicional que nunca falla',
         //   precio: 7500
         // },
-        {
-          nombre: 'Marquise Oreo',
-          descripcion: '',
-          precio: 7500,
-          imagen:'t4.jpg'
-        },
+        // {
+        //   nombre: 'Marquise Oreo',
+        //   descripcion: 'Base de marquise de chocolate combinada con crema y trozos de galletitas Oreo. Intensa y adictiva',
+        //   precio: 7500,
+        //   imagen:'t10.jpg'
+        // },
         // {
         //   nombre: 'Marquise Nutella',
-        //   descripcion: '',
+        //   descripcion: 'Una delicia intensa de marquise de chocolate con el inconfundible sabor a Nutella. Suave,cremosa y tentadora',
         //   precio: 7500
         // },
-
       ]
     },
     // {
@@ -235,19 +250,19 @@ export class CategoriaComponent implements OnInit {
     //   productos: [
     //     {
     //       nombre: 'Té verde',
-    //       descripcion: 'Hojas de té verde orgánico, frescas y naturales.',
+    //       descripcion: 'Hojas de té verde orgánico, frescas y naturales',
     //       precio: 4500,
     //       imagen: 't1.jpg'
     //     },
     //     {
     //       nombre: 'Té chai',
-    //       descripcion: 'Té negro con una mezcla de especias: canela, jengibre, cardamomo y clavo.',
+    //       descripcion: 'Té negro con una mezcla de especias: canela, jengibre, cardamomo y clavo',
     //       precio: 5000,
     //       imagen: 't1.jpg'
     //     },
     //     {
     //       nombre: 'Mate cocido',
-    //       descripcion: 'Yerba mate de alta calidad, infusionada para un sabor suave y tradicional.',
+    //       descripcion: 'Yerba mate de alta calidad, infusionada para un sabor suave y tradicional',
     //       precio: 4000,
     //       imagen: 't1.jpg'
     //     },
@@ -261,20 +276,20 @@ export class CategoriaComponent implements OnInit {
       productos: [
         {
           nombre: 'Jugo de naranja',
-          descripcion: 'Naranjas frescas exprimidas al momento, con todo su jugo natural.',
+          descripcion: 'Naranjas frescas exprimidas al momento, con todo su jugo natural',
           precio: 5200,
           imagen: 'j1.jpg'
         },
         {
           nombre: 'Jugo especial verde',
-          // descripcion: 'Frambuesas, fresas y arándanos mezclados con yogur natural y un toque de miel.',
+          // descripcion: 'Frambuesas, fresas y arándanos mezclados con yogur natural y un toque de miel',
           descripcion: '',
           precio: 5500,
           imagen: 's1.jpg'
         },
         {
           nombre: 'Limonada con menta y jengibre',
-          descripcion: 'Limones frescos y hojas de menta, para una bebida refrescante y cítrica.',
+          descripcion: 'Limones frescos y hojas de menta, para una bebida refrescante y cítrica',
           precio: 5200,
           imagen: 'j2.jpg'
         },
@@ -288,7 +303,7 @@ export class CategoriaComponent implements OnInit {
       productos: [
         {
           nombre: 'Tostado de miga',
-          descripcion: 'Jamón cocido y queso fundido, entre pan crujiente, un clásico irresistible.',
+          descripcion: 'Jamón cocido y queso fundido, entre pan crujiente, un clásico irresistible',
           precio: 7500,
           imagen: 'tost1.jpg'
         },
@@ -408,98 +423,98 @@ export class CategoriaComponent implements OnInit {
         // },
       ]
     },
-    {
-      label: 'Tartas',
-      icon: 'icono5.png',
-      route: '/tartas',
-      nombre: 'tartas',
-      productos: [
-        {
-          nombre: 'Calabaza, puerro y muzzarella',
-          descripcion: '',
-          precio: 8000,
-          imagen: ''
-        },
-        {
-          nombre: 'Espinaca',
-          descripcion: '',
-          precio: 8000,
-          imagen: ''
-        },
-        {
-          nombre: 'Mix de vegetales',
-          descripcion: '',
-          precio: 8000,
-          imagen: ''
-        },
-        {
-          nombre: 'Brocoli',
-          descripcion: '',
-          precio: 8000,
-          imagen: ''
-        },
-        {
-          nombre: 'Choclo y zapallo',
-          descripcion: '',
-          precio: 8000,
-          imagen: ''
-        },
-      ]
-    },
+    // {
+    //   label: 'Tartas',
+    //   icon: 'icono5.png',
+    //   route: '/tartas',
+    //   nombre: 'tartas',
+    //   productos: [
+    //     {
+    //       nombre: 'Calabaza, puerro y muzzarella',
+    //       descripcion: '',
+    //       precio: 8000,
+    //       imagen: ''
+    //     },
+    //     {
+    //       nombre: 'Espinaca',
+    //       descripcion: '',
+    //       precio: 8000,
+    //       imagen: ''
+    //     },
+    //     {
+    //       nombre: 'Mix de vegetales',
+    //       descripcion: '',
+    //       precio: 8000,
+    //       imagen: ''
+    //     },
+    //     {
+    //       nombre: 'Brocoli',
+    //       descripcion: '',
+    //       precio: 8000,
+    //       imagen: ''
+    //     },
+    //     {
+    //       nombre: 'Choclo y zapallo',
+    //       descripcion: '',
+    //       precio: 8000,
+    //       imagen: ''
+    //     },
+    //   ]
+    // },
     {
       label: 'Pastelería',
       icon: 'icono3.png',
       route: '/pastelería',
       nombre: 'pastelería',
       productos: [
-        {
-          nombre: 'Medialuna',
-          descripcion: '',
-          precio: 1100,
-          imagen: ''
-        },
-        {
-          nombre: 'Medialuna con jamón y queso',
-          descripcion: '',
-          precio: 3000,
-          imagen: ''
-        },
-        {
-          nombre: 'Roll relleno con pastelera, manzana y pasas',
-          descripcion: '',
-          precio: 4800,
-          imagen: ''
-        },
-        {
-          nombre: 'Tostadas de pan blanco o integral',
-          descripcion: 'Con semillas, queso crema o manteca, y mermelada',
-          precio: 4700,
-          imagen: ''
-        },
-        {
-          nombre: 'Avocado toast',
-          descripcion: '',
-          precio: 7000,
-          imagen: ''
-        },
-        {
-          nombre: 'Alfajor de maicena',
-          descripcion: '',
-          precio: 3500,
-          imagen: ''
-        },
+        // {
+        //   nombre: 'Medialuna',
+        //   descripcion: '',
+        //   precio: 1100,
+        //   imagen: ''
+        // },
+        // {
+        //   nombre: 'Medialuna con jamón y queso',
+        //   descripcion: '',
+        //   precio: 3000,
+        //   imagen: ''
+        // },
+        // {
+        //   nombre: 'Roll relleno con pastelera, manzana y pasas',
+        //   descripcion: '',
+        //   precio: 4800,
+        //   imagen: ''
+        // },
+        // {
+        //   nombre: 'Tostadas de pan blanco o integral',
+        //   descripcion: 'Con semillas, queso crema o manteca, y mermelada',
+        //   precio: 4700,
+        //   imagen: ''
+        // },
+        // {
+        //   nombre: 'Avocado toast',
+        //   descripcion: '',
+        //   precio: 7000,
+        //   imagen: ''
+        // },
+        // {
+        //   nombre: 'Alfajor de maicena',
+        //   descripcion: '',
+        //   precio: 3500,
+        //   imagen: ''
+        // },
         {
           nombre: 'Alfajor masa sableé',
           descripcion: '',
           precio: 3500,
           imagen: 'a1.jpg'
         },
-        {
-          nombre: 'Alfajor de coco con dulce de leche',
-          descripcion: '',
-          precio: 3500,
-          imagen: ''
-        },
+        // {
+        //   nombre: 'Alfajor de coco con dulce de leche',
+        //   descripcion: '',
+        //   precio: 3500,
+        //   imagen: ''
+        // },
         {
           nombre: 'Alfajor santafecino',
           descripcion: '',
@@ -542,12 +557,12 @@ export class CategoriaComponent implements OnInit {
         //   precio: 6500,
         //   imagen: ''
         // },
-        {
-          nombre: 'Cuadrado de maní',
-          descripcion: 'base de chocolate, dulce de leche, maní y ganache de chocolate blanco',
-          precio: 6500,
-          imagen: ''
-        },
+        // {
+        //   nombre: 'Cuadrado de maní',
+        //   descripcion: 'base de chocolate, dulce de leche, maní y ganache de chocolate blanco',
+        //   precio: 6500,
+        //   imagen: ''
+        // },
       ]
     },
     {
@@ -557,17 +572,29 @@ export class CategoriaComponent implements OnInit {
       nombre: 'rinconcito-integral',
       productos: [
         {
-          nombre: 'Pastafrola',
-          descripcion: '',
+          nombre: 'Pastafrola integral',
+          descripcion: 'Clásica tarta de masa integral con azúcar mascabo, rellena con dulce de membrillo artesanal. Una versión más saludable sin perder el sabor de siempre',
           precio: 5500,
           imagen: 'a3.jpg'
         },
         {
-          nombre: 'Pepas',
-          descripcion: '',
+          nombre: 'Pepas integrales',
+          descripcion: 'Galletitas elaboradas con harina integral, endulzadas con azúcar rubio y rellenas con dulce de membrillo. Una opción nutritiva para acompañar el mate o el café',
           precio: 4000,
           imagen: 'a4.jpg'
         },
+        // {
+        //   nombre: 'Tarta de Manzana Integral',
+        //   descripcion: 'Base crocante de harina integral cubierta con manzanas frescas, canela y un toque de azúcar rubio. Dulce, aromática y natural',
+        //   precio: 4000,
+        //   imagen: 'a4.jpg'
+        // },
+        // {
+        //   nombre: 'Budín de Naranja Integral',
+        //   descripcion: 'Esponjoso budín elaborado sin manteca ni huevo, con jugo y ralladura de naranja natural. Un clásico de sabor cítrico ideal para cualquier momento',
+        //   precio: 4000,
+        //   imagen: 'a4.jpg'
+        // },
       ]
     },
   ];
