@@ -85,7 +85,7 @@ export class CategoriaComponent implements OnInit {
         {
           nombre: 'Cheescake con Frutos Rojos',
           descripcion: 'Base de galletas crocantes, crema de queso suave y untuosa, coronada con un coulis artesanal de frutos rojos. Un postre fresco y elegante, ideal para quienes buscan un sabor equilibrado y sofisticado',
-          precio: 9500,
+          precio: 7500,
           imagen: 't18.webp'
         },
         // {
@@ -97,7 +97,7 @@ export class CategoriaComponent implements OnInit {
         {
           nombre: 'Torta Carrot Cake',
           descripcion: 'Tres capaz de suave bizcochuelo de zanahoria, rellenas con nuestra clásica crema de queso y coronadas con nueces seleccionadas. Un clásico irresistible de Requeterico',
-          precio: 8200,
+          precio: 7500,
           imagen: 't3.webp'
         },
         {

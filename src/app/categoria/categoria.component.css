@@ -128,8 +128,8 @@
 }
 .close-btn {
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 200px;
+    right: 10px;
     font-size: 40px;
     color: white;
     cursor: pointer;
@@ -140,3 +140,4 @@
 .close-btn:hover {
     transform: scale(1.2);
 }
+
