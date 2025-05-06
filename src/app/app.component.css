@@ -16,21 +16,7 @@ html {
     transition: all 0.3s ease;
 }
 
-.background-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    /* height: 100%; */
-    width: 100%;
-    z-index: -1;
-    background-image: url('../../public/fondo-a.webp');
-    background-size: cover;
-    background-position: center;
-    filter: blur(1px) brightness(0.9);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
+
 
 
 #logo{

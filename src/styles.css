@@ -18,6 +18,19 @@ body {
     font-size: 1.8rem;
 }
 
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    background-image: url('../public/text1.webp');
+    filter: blur(1px) brightness(1);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
 .menu-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -62,4 +75,17 @@ body {
 
 .fade-in.show {
     opacity: 1;
+}
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6B4226;
 }

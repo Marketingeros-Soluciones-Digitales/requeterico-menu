@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, Renderer2 } from '@angular/core';
-import { RouterOutlet, RouterModule, Router, NavigationEnd } from '@angular/router';
+import { RouterOutlet, RouterModule, Router, NavigationEnd, NavigationCancel, NavigationError, NavigationStart } from '@angular/router';
 import { filter } from 'rxjs/operators';
 
 @Component({
@@ -12,9 +12,23 @@ import { filter } from 'rxjs/operators';
 export class AppComponent {
   title = 'menu requeterico';
   isViewVisible = false;
-
+  loading = false;
   constructor(private router: Router, private renderer: Renderer2) {
 
+  }
+  
+  ngOnInit() {
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationStart) {
+        this.loading = true;
+      } else if (
+        event instanceof NavigationEnd ||
+        event instanceof NavigationCancel ||
+        event instanceof NavigationError
+      ) {
+        this.loading = false;
+      }
+    });
   }
 
   ngAfterViewInit(): void {

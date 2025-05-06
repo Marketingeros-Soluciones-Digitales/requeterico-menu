@@ -128,8 +128,8 @@
 }
 .close-btn {
     position: absolute;
-    top: 200px;
-    right: 10px;
+    top: 15px;
+    right: 15px;
     font-size: 40px;
     color: white;
     cursor: pointer;
@@ -140,4 +140,66 @@
 .close-btn:hover {
     transform: scale(1.2);
 }
+.fondo-card {
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: block;
+    object-position: center;
+    object-fit: cover;
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    object-position: center; */
+}
 
+.fondo-card-textura {
+    opacity: 0;
+}
+.fondo-card-imagen {
+    opacity: 1;
+}
+
+
+
+.blurred-load {
+    height: 334.4px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .blurred-load::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    animation: pulse 1s infinite;
+    background-color: white;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.blurred-load img {
+    opacity: 0;
+    transition: opacity 250ms ease-in-out;
+}
+
+.blurred-load.loaded > img {
+    opacity: 1;
+} */
