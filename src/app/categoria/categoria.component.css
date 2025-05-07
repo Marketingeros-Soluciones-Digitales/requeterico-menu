@@ -69,6 +69,7 @@
 
 
 .boton-volver {
+    justify-self: anchor-center;
     background-color: #a67c52;
     text-align: center;
     font-size: 21px;
