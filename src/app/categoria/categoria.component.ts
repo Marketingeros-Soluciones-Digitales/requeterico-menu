@@ -582,8 +582,8 @@ export class CategoriaComponent implements OnInit {
           nombre: 'Avocado toast',
           descripcion: 'Tostada de pan integral con una base generosa de palta fresca, coronada con huevo y un mix de semillas. Una propuesta liviana, nutritiva y llena de sabor natural',
           precio: 7000,
-          imagen: '',
-          small_imagen: ''
+          imagen: 'avocado-toast.webp',
+          small_imagen: 'avocado-toast-small.webp'
         },
         // {
         //   nombre: 'Alfajor de maicena',

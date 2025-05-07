@@ -1,4 +1,4 @@
-#cart-item{
+#cart-item {
     position: relative;
     min-height: 120px;
     margin-top: 15px;
@@ -7,18 +7,19 @@
     border-radius: 33px;
     background-size: contain;
 }
-#card-descripcion{
+
+#card-descripcion {
     text-transform: uppercase;
     font-size: 1rem;
     line-height: 26px;
 }
 
-#card-descripcion i{
+#card-descripcion i {
     font-size: 25px;
     text-align: center;
 }
 
-#titulo-card{
+#titulo-card {
     font-weight: 500;
     text-transform: uppercase;
     font-size: 24px;
@@ -28,7 +29,7 @@
 
 
 
-#imagen-card{
+#imagen-card {
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -37,19 +38,19 @@
 }
 
 
-#cuerpo-card{
+#cuerpo-card {
     background: url("../../../public/fondo-claro.webp");
     font-weight: bold;
 }
 
-#card-nombre div{
+#card-nombre div {
     text-align: center;
     font-size: 1.5rem;
     letter-spacing: 0px;
 }
 
 
-#boton-card{
+#boton-card {
     align-content: space-evenly;
     text-align: center;
     float: none;
@@ -67,7 +68,7 @@
 
 
 
-.boton-volver{
+.boton-volver {
     background-color: #a67c52;
     text-align: center;
     font-size: 21px;
@@ -88,7 +89,7 @@
 }
 
 
-.div-carta{
+.div-carta {
     border-color: #a5805b;
 }
 
@@ -117,6 +118,7 @@
     opacity: 0;
     pointer-events: none;
 }
+
 .lightbox-content {
     max-width: 90vw;
     max-height: 90vh;
@@ -126,6 +128,7 @@
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+
 .close-btn {
     position: absolute;
     top: 15px;
@@ -140,6 +143,7 @@
 .close-btn:hover {
     transform: scale(1.2);
 }
+
 .fondo-card {
     width: 100%;
     aspect-ratio: 1/1;
@@ -159,6 +163,7 @@
 .fondo-card-textura {
     opacity: 0;
 }
+
 .fondo-card-imagen {
     opacity: 1;
 }
@@ -166,7 +171,7 @@
 
 
 .blurred-load {
-    height: 334.4px;
+    height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -195,11 +200,13 @@
     }
 }
 
-.blurred-load img {
-    opacity: 0;
-    transition: opacity 250ms ease-in-out;
-}
 
 .blurred-load.loaded > img {
     opacity: 1;
-} */
+    } */
+
+.blurred-load img {
+    aspect-ratio: 1 / 1;
+    /* opacity: 0; */
+    /* transition: opacity 250ms ease-in-out; */
+}
