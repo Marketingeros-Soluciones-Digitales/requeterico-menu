@@ -81,6 +81,27 @@ export class CategoriaComponent implements OnInit {
           imagen: 'f1.webp',
           small_imagen: 'f1-small.webp'
         },
+        {
+          nombre: 'Flat White',
+          descripcion: 'Bebida cremosa con doble shot de espresso y leche vaporizada finamente texturizada. Un equilibrio perfecto entre intensidad y suavidad, ideal para los amantes del café con leche',
+          precio: 4800,
+          imagen: 'flat-white.webp',
+          small_imagen: 'flat-white-small.webp'
+        },
+        {
+          nombre: 'Café Irlandés',
+          descripcion: 'Un clásico internacional con carácter: café espresso intenso, whisky irlandés suave y una capa de crema espesa. Perfecto para tardes frías o un momento especial con amigos',
+          precio: 5200,
+          imagen: 'cafe-irlandes.webp',
+          small_imagen: 'cafe-irlandes-small.webp'
+        },
+        {
+          nombre: 'Café Requeterico',
+          descripcion: 'Nuestro café insignia: blend artesanal de granos seleccionados, con aroma intenso, cuerpo equilibrado y notas sutiles a chocolate y frutos secos. Preparado con esmero por nuestros baristas.',
+          precio: 3500,
+          imagen: 'cafe-requeterico.webp',
+          small_imagen: 'cafe-requeterico-small.webp'
+        },
       ]
     },
     {
@@ -260,13 +281,13 @@ export class CategoriaComponent implements OnInit {
         //   descripcion: 'Bizcochuelo húmedo con nueces seleccionadas y crema. Un clásico tradicional que nunca falla',
         //   precio: 7500
         // },
-        // {
-        //   nombre: 'Marquise Oreo',
-        //   descripcion: 'Base de marquise de chocolate combinada con crema y trozos de galletitas Oreo. Intensa y adictiva',
-        //   precio: 7500,
-        //   imagen:'t10.webp',
-        // small_imagen:'t10.webp'
-        // },
+        {
+          nombre: 'Marquisse  Oreo',
+          descripcion: 'Base crocante de galletitas Oreo, crema suave de chocolate y un topping de galletas trituradas. Un postre intenso y cremoso, favorito entre los más golosos',
+          precio: 7500,
+          imagen:'marquisse-oreo.webp',
+          small_imagen:'marquisse-oreo-small.webp'
+        },
         // {
         //   nombre: 'Marquise Nutella',
         //   descripcion: 'Una delicia intensa de marquise de chocolate con el inconfundible sabor a Nutella. Suave,cremosa y tentadora',
@@ -359,13 +380,13 @@ export class CategoriaComponent implements OnInit {
         //   imagen: '',
         // small_imagen: ''
         // },
-        // {
-        //   nombre: 'Tostado Requeterico',
-        //   descripcion: 'Pan brioche embebido en huevo y azúcar con jamón y muzzarella tostado',
-        //   precio: 7800,
-        //   imagen: '',
-        // small_imagen: ''
-        // },
+        {
+          nombre: 'Tostado Requeterico',
+          descripcion: 'Pan de campo dorado y crujiente, con jamón cocido natural y queso fundido en su punto justo. Un clásico irresistible, ideal para acompañar con café o jugos naturales en cualquier momento del día',
+          precio: 7800,
+          imagen: 'tostado-requeterico.webp',
+          small_imagen: 'tostado-requeterico-small.webp'
+        },
         // {
         //   nombre: 'Tostado en pan focaccia',
         //   descripcion: 'lomito ahumado y queso',
@@ -557,13 +578,13 @@ export class CategoriaComponent implements OnInit {
         //   imagen: '',
         // small_imagen: ''
         // },
-        // {
-        //   nombre: 'Avocado toast',
-        //   descripcion: '',
-        //   precio: 7000,
-        //   imagen: '',
-        // small_imagen: ''
-        // },
+        {
+          nombre: 'Avocado toast',
+          descripcion: 'Tostada de pan integral con una base generosa de palta fresca, coronada con huevo y un mix de semillas. Una propuesta liviana, nutritiva y llena de sabor natural',
+          precio: 7000,
+          imagen: '',
+          small_imagen: ''
+        },
         // {
         //   nombre: 'Alfajor de maicena',
         //   descripcion: '',
@@ -663,6 +684,13 @@ export class CategoriaComponent implements OnInit {
           imagen: 'a4.webp',
           small_imagen: 'a4-small.webp'
         },
+        {
+          nombre: 'Budín Inglés',
+          descripcion: 'Budín casero esponjoso con frutas abrillantadas y frutos secos, horneado lentamente para lograr una textura húmeda y un sabor tradicional. Ideal para acompañar un té o café',
+          precio: 4600,
+          imagen: 'budin-ingles.webp',
+          small_imagen: 'budin-ingles-small.webp'
+        },
         // {
         //   nombre: 'Tarta de Manzana Integral',
         //   descripcion: 'Base crocante de harina integral cubierta con manzanas frescas, canela y un toque de azúcar rubio. Dulce, aromática y natural',
@@ -707,6 +735,21 @@ export class CategoriaComponent implements OnInit {
         // },
       ]
     },
+    {
+      label: 'desayunos\nmeriendas',
+        icon: 'meriendas4.png',
+        route: '/meriendas',
+        nombre: 'meriendas',
+      productos: [
+        {
+          nombre: 'Merienda Integral',
+          descripcion: 'Tazón de yogur natural con granola crocante y pasas de uva, acompañado de queso crema suave y mermelada. Se sirve con dos tostadas integrales levemente doradas. Un desayuno o merienda nutritiva, equilibrada y deliciosa',
+          precio: 7000,
+          imagen: 'merienda-integral.webp',
+          small_imagen: 'merienda-integral-small.webp'
+        },
+      ]
+    }
     // {
     //   label: 'Rincón celíaco',
     //   icon: '',
